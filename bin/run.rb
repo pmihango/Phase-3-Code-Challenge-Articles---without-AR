@@ -10,7 +10,7 @@ author3 = Author.new("Declan Maina")
 #create some magaiznes
 magazine1 = Magazine.new("Kenya Engineer", "The Scientist")
 magazine2 = Magazine.new("The Playboy Magazine", "Parents Magazine")
-magazine3 = Magazine.new("Seeds of Gold", "the Insider")
+magazine3 = Magazine.new("Seeds of Gold", "The Insider")
 
 # create some articles and associate them with authors and magazines
 article1 = Article.new(author1, magazine1, "The Engineering behind Express Way")
@@ -20,11 +20,13 @@ article4 = Article.new(author3, magazine2, "The future of social media in Africa
 
 # test some methods
 
-puts author1.name
-# should output "Paul Mihango"
+puts "Author:#{author1.name}"
+# output "Paul Mihango"
 
-puts magazine1.name
+puts "Magazine:#{magazine1.name}"
 # should output "Kenya Engineer"
 
-puts article1.magazine
+puts "Article:#{article1.magazine}"
 # should output "The Engineering behind Express Way"
+
+# puts article4.magazine
