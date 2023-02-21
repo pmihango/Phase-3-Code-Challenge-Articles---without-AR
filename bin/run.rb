@@ -8,9 +8,9 @@ author2 = Author.new("Joan Wairimu")
 author3 = Author.new("Declan Maina")
 
 #create some magaiznes
-magazine1 = Magazine.new("Kenya Engineer")
-magazine2 = Magazine.new("The Playboy Magazine")
-magazine3 = Magazine.new("Seeds of Gold")
+magazine1 = Magazine.new("Kenya Engineer", "The Scientist")
+magazine2 = Magazine.new("The Playboy Magazine", "Parents Magazine")
+magazine3 = Magazine.new("Seeds of Gold", "the Insider")
 
 # create some articles and associate them with authors and magazines
 article1 = Article.new(author1, magazine1, "The Engineering behind Express Way")
