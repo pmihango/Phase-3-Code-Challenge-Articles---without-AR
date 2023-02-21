@@ -1,6 +1,7 @@
 require 'pry'
 
-
+require_relative 'article'
+require_relative 'magazine'
 
 class Author
 attr_reader :name, :articles
